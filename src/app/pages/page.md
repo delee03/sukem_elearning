@@ -1,0 +1,1 @@
+là nơi để các trang của ứng dụng được lưu trữ. Mỗi trang sẽ có một thư mục riêng chứa các file liên quan đến trang đó. Ví dụ: trang `home` sẽ có thư mục `home` chứa các file liên quan đến trang `home`.
