@@ -1,0 +1,1 @@
+là nơi viết các component của ứng dụng. Mỗi component sẽ có một thư mục riêng chứa các file liên quan đến component đó. Ví dụ: component `button` sẽ có thư mục `button` chứa các file liên quan đến component `button`.
