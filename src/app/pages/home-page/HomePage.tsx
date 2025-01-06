@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Banner from './Banner';
+import Stats from '@/app/components/Stats/Stats';
 
 const HomePage: React.FC = () => {
   return (
@@ -10,8 +11,8 @@ const HomePage: React.FC = () => {
       <Header />
       <main className="flex-grow">
         <Banner />
-        <h1>Hello world</h1>
       </main>
+      <Stats />
       <Footer />
     </div>
   );
