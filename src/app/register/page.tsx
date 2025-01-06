@@ -1,7 +1,10 @@
+'use client';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 
 export default function Register() {
+  const router = useRouter();
   return (
     <>
       <div className="font-[sans-serif] max-sm:px-4">
@@ -16,7 +19,7 @@ export default function Register() {
                   <p className="text-sm mt-4 text-gray-800">
                     Already have an account?
                     <a
-                      href="/login"
+                      onClick={() => router.push('/login')}
                       className="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap"
                     >
                       Login here
