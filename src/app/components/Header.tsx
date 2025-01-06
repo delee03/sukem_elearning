@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Ads from './Ads/Ads';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const Header: React.FC = () => {
